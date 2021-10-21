@@ -57,5 +57,29 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 
 
+const prg1 = document.getElementById("work-img1");
+const prg2 = document.getElementById("work-img2");
+const prg3 = document.getElementById("work-img3");
+const prg4 = document.getElementById("work-img4");
 
+
+prg1.onclick = function () {
+    console.log(window.location.href);
+    window.location.href = "https://discord-clone-4d628.web.app/";
+};
+
+prg2.onclick = function () {
+    console.log(window.location.href);
+    window.location.href = "https://fir-5f541.web.app/";
+};
+
+prg3.onclick = function () {
+    console.log(window.location.href);
+    window.location.href = "https://slack-clone-49a96.web.app/";
+};
+
+prg4.onclick = function () {
+    console.log(window.location.href);
+    window.location.href = "https://pop-music.netlify.app/";
+};
 
