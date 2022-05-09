@@ -56,12 +56,16 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-
+const prg = document.getElementById("work-img");
 const prg1 = document.getElementById("work-img1");
 const prg2 = document.getElementById("work-img2");
 const prg3 = document.getElementById("work-img3");
 const prg4 = document.getElementById("work-img4");
 
+prg.onclick = function () {
+    console.log(window.location.href);
+    window.location.href = "https://instagram-3bdd0.web.app/login";
+};
 
 prg1.onclick = function () {
     console.log(window.location.href);
