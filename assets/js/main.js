@@ -69,7 +69,7 @@ prg.onclick = function () {
 
 prg1.onclick = function () {
     console.log(window.location.href);
-    window.location.href = "https://discord-clone-4d628.web.app/";
+    window.location.href = "https://delightful-strudel-bccd8d.netlify.app/";
 };
 
 prg2.onclick = function () {
